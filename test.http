@@ -1,0 +1,16 @@
+//----------------- Get All Listings -----------------------
+GET http://localhost:3000/listings
+###
+// Get Calculation
+GET http://localhost:3000
+###
+GET http://localhost:3000/asd HTTP/1.1
+###
+
+
+POST http://localhost:3000/delete-listing HTTP/1.1
+content-type: application/json
+
+{
+   "id": "001"
+}
